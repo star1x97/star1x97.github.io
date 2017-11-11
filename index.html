@@ -7,67 +7,77 @@
 
   <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
 
-
-<style>
-.menu {
-  position: fixed;
-  top: 0;
-  background: white;
-  z-index: 1000;
+      
+      <style media="screen">
+      .menu {
+position: fixed;
+top: 0;
+background: white;
+z-index: 1000;
 }
 
 
 
 .heading {
-  font-size: 47px;
+font-size: 47px;
 
 }
 
 .main {
-  background: url('https://ak3.picdn.net/shutterstock/videos/26152073/thumb/1.jpg');
-  height: 100vh;
-  background-repeat: no-repeat;
-  width: 100%;
-  background-size: contain;
+background: url('https://ak3.picdn.net/shutterstock/videos/26152073/thumb/1.jpg');
+height: 100vh;
+background-repeat: no-repeat;
+width: 100%;
+background-size: contain;
 }
 
 .centered {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  flex-direction: column;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+flex-direction: column;
 }
 
 .about {
-  background: #f9f7f4;
-  height: 100vh;
+background: #f9f7f4;
+height: 100vh;
 }
 
 .strong-sides {
-  height: 50vh;
-  padding: 50px;
+height: 50vh;
+padding: 50px;
 }
 
 .glyphicon {
-  font-size: 50px;
+font-size: 50px;
 }
 .pics {
-  height: 100vh;
+height: 100vh;
 }
 .contacts {
-  height: 100vh;
-  background: #f9f7f4;
+height: 100vh;
+background: #f9f7f4;
 }
 
-</style>
+      </style>
 
 </head>
 
 <body>
-  <div class="centered main" id="main">
-  <h1 class="heading">
-    My personal page!
+
+
+<div class="centered main" id="main">
+  <ul class="nav nav-pills menu">
+    <li><a href="#">Home</a></li>
+    <li><a href="#about">About me</a></li>
+    <li><a href="#strong-sides">My strong sides</a></li>
+    <li><a href="#pics">Pics</a></li>
+    <li><a href="#contacts">Contacts</a></li>
+  </ul>
+
+  <h1 class="heading centered">
+    My personal page
   </h1>
 </div>
 
@@ -76,9 +86,8 @@
   <h2 class="about-heading">
      Video I like
   </h2>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/UF8uR6Z6KLc" frameborder="0" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/j0L3LDabve8" frameborder="0" allowfullscreen></iframe>
 </div>
-
 
 
 <div class="strong-sides" id="strong-sides">
@@ -116,18 +125,26 @@
 
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="..." alt="...">
+      <img src="http://new.graphicpanic.com/wp-content/uploads/2015/09/music-background.jpg" alt="...">
       <div class="carousel-caption">
         ...
       </div>
     </div>
     <div class="item">
-      <img src="..." alt="...">
+      <img src="http://media.idownloadblog.com/wp-content/uploads/2014/09/iPhone-6-ladscape-home-screen-sideway.png" alt="...">
       <div class="carousel-caption">
         ...
       </div>
     </div>
-    ...
+
+    <div class="item">
+      <img src="https://hdwallsource.com/img/2014/11/wonderful-paper-plane-wallpaper-43447-44499-hd-wallpapers.jpg" alt="...">
+      <div class="carousel-caption">
+        ...
+     </div>
+
+
+    </div>
   </div>
 
   <!-- Controls -->
@@ -147,8 +164,12 @@
 
 
 
-<div class="contacts" id="contacts">
+<div class="contacts centered" id="contacts">
+  <h3>
+    Here you can find me
+  </h3>
 
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d139179.29326749442!2d24.12916245!3d56.971474449999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1slv!2slv!4v1510406222651" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 </div>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
